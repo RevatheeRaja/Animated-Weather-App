@@ -32,7 +32,8 @@ This Weather Application is a sophisticated platform crafted to deliver comprehe
   - To personalize the experience and retrieve historical data, the application employs user authentication mechanisms. This ensures that users can securely access their personalized weather history.
 
 The Weather Application stands as a testament to advanced technical implementation, providing users with a feature-rich and intuitive tool for accessing accurate and animated weather information.
-![Project Logo](public/assets/icons/amcharts_weather_icons_1.0.0/static/snowy-4.svg)
+
+
 ## Contact Information
 - **E mail:**
 rrevathee@gmail.com
