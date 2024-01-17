@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFNkdb_ywt43HMhMraTAYhdp27J4qMJ4&libraries=places&callback=initMap"> -->
+        {{!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFNkdb_ywt43HMhMraTAYhdp27J4qMJ4&libraries=places"></script> --}}
+            <script src="./assets/js/index.js" defer></script>
+    </head>
+    <body>
+       <!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+          <div class="img_section">
+            <div class="default_info">
+              <h2 class="default_day">Sunday</h2>
+              <span class="default_date">18 September 2023 </span>
+              <div class="icons">
+                <img id = "weatherImage" alt="image icon" src ="./assets/icons/animated/day.svg" />
+                <h2 class="weather_temp Temperature">22°C</h2>
+                <h3 class="cloudtxt location">Overcast Clouds</h3>
+              </div>
+            </div>
+          </div>
+          <div class="content_section">
+            <form>
+              <input
+                type="text"
+                placeholder="Search Location"
+                class="input_field"
+                id="searchBox"
+              />
+              {{!-- <button type="submit" class="btn_search">Search</button> --}}
+            </form>
+  
+            <div class="day_info">
+              <div class="content">
+                <p class="title">CITY</p>
+                <span class="value status">United Kingdom</span>
+              </div>
+              <div class="content">
+                <p class="title">FEELS LIKE</p>
+                <span class="value Feels_Like">23°C</span>
+              </div>
+              <div class="content">
+                <p class="title">HUMIDITY</p>
+                <span class="value Humidity">2%</span>
+              </div>
+              <div class="content">
+                <p class="title">WIND SPEED</p>
+                <span class="value Wind">2.92 Km/h</span>
+              </div>
+            </div>
+  
+            <div class="list_content">
+              <ul>
+                <li>
+                  <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                  <span>Sat</span>
+                  <span class="day_temp">23°C</span>
+                </li>
+                <li>
+                  <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                  <span>Sat</span>
+                  <span class="day_temp">23°C</span>
+                </li>
+                <li>
+                  <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                  <span>Sat</span>
+                  <span class="day_temp">23°C</span>
+                </li>
+                <li>
+                  <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                  <span>Sat</span>
+                  <span class="day_temp">23°C</span>
+                </li>
+              </ul>
+            </div>
+            <!-- Search History Tag -->
+                <div class="search-history">
+                    <h3 class="history-link">Search History</h3>
+                     <table class="history-table">
+                        <thead>
+                          <tr>
+                            <th>City</th>
+                            <th>Description</th>
+                            <th>Date</th>
+                            <th>Temperature</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- Table rows will be dynamically added here using JavaScript -->
+                        </tbody>
+                      </table>
+                </div>
+        </div>
+      </div>
+    
+    </body>
+</html>
